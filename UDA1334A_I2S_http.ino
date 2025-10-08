@@ -1,18 +1,7 @@
 //**********************************************************************************************************
 //*    audioI2S-- I2S audiodecoder for ESP32-S3,                                                              *
 //**********************************************************************************************************
-//
-// first release on 11/2018
-// Version 3  , Jul.02/2020
-//
-//
-// THE SOFTWARE IS PROVIDED "AS IS" FOR PRIVATE USE ONLY, IT IS NOT FOR COMMERCIAL USE IN WHOLE OR PART OR CONCEPT.
-// FOR PERSONAL USE IT IS SUPPLIED WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-// WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR
-// OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
-//
-
+ 
 #include "Arduino.h"
 //#include "WiFiMulti.h"
 #include <WiFi.h>
@@ -35,8 +24,8 @@
 
 Audio audio;
 //WiFiMulti wifiMulti;
-String ssid =     "KiranF19";
-String password = "kiran@8695";
+String ssid =     "your ssid";
+String password = "your password";
 
 void setup() 
 {
